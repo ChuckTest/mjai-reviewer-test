@@ -115,10 +115,12 @@
             font-weight: 400
         }
 
-        .kyoku-heading{
+        .kyoku-heading,
+        .kyoku-toc {
             display: flex
         }
-        .chuck{ 
+
+        .catalog{ 
         position: fixed;
   top: 0;
   left: 0;
@@ -283,7 +285,7 @@
                 value="diff-only">仅差异项</label><label><input name="expand" onclick="toggleExpand()" type="radio"
                 value="none">无</label>
     </fieldset>
-    <details class="collapse chuck" open="">
+    <details class="collapse catalog" open="">
         <summary>目录</summary>
         <div class="kyoku-toc">
             <ol>
